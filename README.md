@@ -20,13 +20,28 @@ As can be seen from the demo HTML, simply call `new ZwingCarousel('yourElementSe
 
 ```javascript
 {
-    startIndex: 0, // Start at this item (0-n)
-    dots: false, // Do I want dot navigation?
-    dotsContainerSelector: '.zwing-carousel__dots', // In which of my page's elements should I add the dots?
-    activeDotClass: 'active', // The active dot (if I want dots), should have this CSS class.
-    childSelector: '.zwing-carousel__item', // The children of my carousel have this class.
-    nextButtonSelector: '.zwing-carousel__button-next', // I have a next button. This is its selector.
-    prevButtonSelector: '.zwing-carousel__button-prev', // I have a previous button. This is its selector.
-    interval: false // Do I want autoslide? How many seconds should each item show for?
+	// Start at this item (0-n)
+    startIndex: 0,
+    
+    // Do I want dot navigation?
+    dots: false, 
+    
+     // In which of my page's elements should I add the dots?
+    dotsContainerSelector: '.zwing-carousel__dots',
+    
+     // The active dot (if I want dots), should have this CSS class.
+    activeDotClass: 'active',
+    
+     // The children of my carousel have this class.
+    childSelector: '.zwing-carousel__item',
+    
+     // I have a next button. This is its selector.
+    nextButtonSelector: '.zwing-carousel__button-next',
+    
+     // I have a previous button. This is its selector.
+    prevButtonSelector: '.zwing-carousel__button-prev',
+    
+    // Do I want autoslide? How many seconds should each item show for?
+    interval: false
 }
 ```
