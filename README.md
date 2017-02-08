@@ -18,7 +18,7 @@ As can be seen from the demo HTML, simply call `new ZwingCarousel('yourElementSe
 
 ## Options
 
-```
+```javascript
 {
     startIndex: 0, // Start at this item (0-n)
     dots: false, // Do I want dot navigation?

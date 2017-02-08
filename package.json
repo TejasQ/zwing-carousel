@@ -2,7 +2,6 @@
   "name": "zwing-carousel",
   "version": "1.0.0",
   "description": "A super-simple, unopinionated carousel written in vanilla ES2015.",
-  "main": "index.js",
   "author": "Tejas Kumar",
   "license": "MIT",
   "scripts": {
