@@ -1,0 +1,22 @@
+{
+  "name": "zwing-carousel",
+  "version": "1.0.0",
+  "description": "A super-simple, unopinionated carousel written in vanilla ES2015.",
+  "main": "index.js",
+  "author": "Tejas Kumar",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -f ./demo/*.js ./demo/*.css",
+    "css": "node-sass ./src/zwing-carousel.scss | postcss --use autoprefixer --use cssnano -o ./demo/zwing-carousel.min.css",
+    "js": "babel ./src/zwing-carousel.js --presets latest --out-file ./demo/zwing-carousel.js",
+    "build": "npm run prebuild && npm run css && npm run js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-cli": "^6.22.2",
+    "babel-preset-latest": "^6.22.0",
+    "cssnano": "^3.10.0",
+    "node-sass": "^4.5.0",
+    "postcss-cli": "^2.6.0"
+  }
+}

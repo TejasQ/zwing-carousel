@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Zwing Carousel Demo</title>
+	<meta name="viewport" content="user-scalable=0, initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="zwing-carousel.min.css">
+	<link rel="stylesheet" href="css/my-demo-specific-styles.css">
+</head>
+<body>
+<h1>Carousel Demo</h1>
+<div class="my-carousel">
+	<div class="item item-1">
+		Sup
+	</div>
+	<div class="item item-2">
+		<img alt="Placeholder Image" src="https://i.redditmedia.com/sMsVP-WGCb4fD2icNRr0l8apDi3Ew11sEhKlT3imMpU.jpg?w=768&s=12a787238773d04ba4bbb148236740d9">
+	</div>
+	<div class="item item-3">
+		It can contain more markup!
+		<div class="special-div"></div>
+		<img alt="Placeholder Image" src="http://placehold.it/80x30">
+	</div>
+	<div class="item item-4">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/IIyjsLlevwY" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+<div class="dots"></div>
+<div class="buttons">
+	<button class="zwing-carousel__button-prev">&laquo;</button>
+	<button class="zwing-carousel__button-next">&raquo;</button>
+</div>
+<script src="zwing-carousel.js"></script>
+<script>
+	new ZwingCarousel('.my-carousel', {
+		childSelector: '.item'
+	})
+</script>
+</body>
+</html>
