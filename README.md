@@ -1,10 +1,11 @@
+# Zwing Carousel
 This carousel was created to be simple, unopinionated, and easy to extend. It is written in vanilla ES2015, transpiles down with Babel, and supports SCSS.
 
-# Demo
+## Demo
 
 The `demo/` folder contains a working demo with sample HTML and a specific stylesheet that zwing-slider does not care about. The page can be restyled according to your wildest dreams, and the slider will continue to work as expected.
 
-# To Build
+## To Build
 
 ```bash
 yarn install
@@ -13,7 +14,7 @@ npm run build
 
 The final files are placed in `demo` as `zwing-carousel.min.css` and `zwing-carousel.js`. The JS can further be uglified as required.
 
-# Initialization
+## Initialization
 
 As can be seen from the demo HTML, simply call 
 
@@ -22,7 +23,7 @@ new ZwingCarousel('yourElementSelector', { options });
 ```
  to initialze the carousel. The following options are available for further customization.
 
-## Options
+### Options
 
 ```javascript
 {
