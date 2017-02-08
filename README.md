@@ -6,15 +6,21 @@ The `demo/` folder contains a working demo with sample HTML and a specific style
 
 # To Build
 
-`yarn install`
-
-`npm run build`
+```bash
+yarn install
+npm run build
+```
 
 The final files are placed in `demo` as `zwing-carousel.min.css` and `zwing-carousel.js`. The JS can further be uglified as required.
 
 # Initialization
 
-As can be seen from the demo HTML, simply call `new ZwingCarousel('yourElementSelector', { options })` to initialze the carousel. The following options are available for further customization.
+As can be seen from the demo HTML, simply call 
+
+```javascript
+new ZwingCarousel('yourElementSelector', { options });
+```
+ to initialze the carousel. The following options are available for further customization.
 
 ## Options
 
